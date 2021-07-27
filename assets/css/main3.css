@@ -1,0 +1,100 @@
+/* .container{
+    width: 350px;
+    height: 475px;
+    top: 40px;
+    box-shadow: 0px -3px 30px 8px rgba(0,0,0,0.61);
+    border-radius: 20px;
+}
+
+.button{
+    top: 150px;
+    width: 20%;
+    height: auto;
+    margin-top: -15%;
+    padding: 10%;
+}
+
+#name{
+
+    margin-top: 250%;
+    margin-left: 50%
+}
+
+#ap_pat{
+    margin-left: 50%;
+}
+
+#ap_mat{
+    margin-left: 200%;
+    
+}
+
+#edad{
+    margin-left: 200%;
+}
+
+#list{
+    margin-top: 70%;
+    height: 75%;
+    height: 100px;
+} */
+
+.formulario .datos{
+    margin: 10px 0;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.formulario .datos input{
+    width: 48%;
+}
+
+.formulario .boton{
+    width: 30%;
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+    width: 480px;
+    height: 300px;
+    margin: 10px auto;
+}
+
+.content{
+    margin: 10px 0;
+}
+
+body .contenedor2{
+    position: absolute;
+    width:50%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #76b852;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8DC26F, #76b852);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8DC26F, #76b852); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 8px 8px 15px #0F2027,
+    -8px 8px 25px #203A43;
+}

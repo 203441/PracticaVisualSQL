@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    padding: 10px;
+    background: #833ab4; 
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); 
+} */
+body{
+    font-size: 16px;
+    background: #f46b45;
+    background: -webkit-linear-gradient(to right, #eea849, #f46b45); 
+    background: linear-gradient(to right, #eea849, #f46b45); 
+    height: 100vh;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    text-align: center;
+}
+
+.container{
+    display: block;
+    padding: 20px;
+    width: 30%;
+    line-height: 10px;
+    align-content: center;
+}
+
+/* .container > div{
+    padding: 10px   ;
+    max-width: 1000px;
+    margin: auto;
+    background: #2c3e50; 
+    background: -webkit-linear-gradient(to right, #3498db, #2c3e50); 
+    background: linear-gradient(to right, #3498db, #2c3e50); 
+} */
+
+.container{
+    width: 350px;
+    height: 475px;
+    top: 40px;
+    background: #2c3e50;  
+    background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  
+    background: linear-gradient(to right, #3498db, #2c3e50);
+    box-shadow: 0px -3px 30px 8px rgba(0,0,0,0.61);
+    border-radius: 20px;
+}
+
+img{
+    height: auto;
+    width: 35%;
+    top: 50px;
+    position: relative;;
+}
+
+ input {
+    position: relative;
+    top: 90px;
+    background-color: rgba(167, 162, 162, 0.486);
+    height: auto;
+    width: 75%;
+    border:white;
+    padding: 2%;
+}
+
+#user{
+    position: relative;
+    
+}
+
+#password{
+    position: relative;
+    top: 5%;
+  
+}
+
+button{
+    
+    background-color: white;  background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+    top: 150px;
+    width: 45%;
+    height: auto;
+}
